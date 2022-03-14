@@ -1,0 +1,2 @@
+let taskArea=document.querySelector(".title"),inputField=document.querySelector(".task-input"),createButton=document.querySelector(".add"),newTask=function(){console.log(inputField.value);let e=document.createElement("div");e.innerText=inputField.value,e.classList.add("created"),taskArea.append(e);let t=document.createElement("div");t.classList.add("box"),e.append(t);let n=document.createElement("button");n.classList.add("delete"),e.append(n);n.addEventListener("click",(function(){e.remove()}))};createButton.addEventListener("click",newTask);
+//# sourceMappingURL=main.js.map

@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 0. Reset ================================= */
+/* 
+If you want to add partials, use Sass Modules via @use:
+@use 'variables';
+
+Usage: partial-name.variable/mixin/function-name:
+background: variables.$primary-color;
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+}
+
+/* 2. Content ================================= */
+body {
+  font-family: "Play", sans-serif;
+  font-size: 30px;
+  background-color: #845EC2;
+  color: white;
+}
+
+.title {
+  position: relative;
+  left: 10%;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-shadow: 10px 10px 10px #2a2a2a;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 300px;
+  padding-bottom: 200px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #855ec2;
+}
+
+.created {
+  display: flex;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #855ec2;
+  align-items: center;
+  justify-content: center;
+}
+
+.add {
+  box-shadow: 3px 4px 0px 0px #582aa3;
+  background: linear-gradient(to bottom, #855ec2 5%, #855ec2 100%);
+  background-color: #855ec2;
+  border-radius: 18px;
+  border: 1px solid #855ec2;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #855ec2;
+}
+
+.delete {
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 18px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+  margin-left: 100px;
+}
+
+.task-input {
+  padding: 20px 40px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.todo {
+  border-bottom: 2px solid #D65DB1;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  border: 2px solid;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=main.css.map */
